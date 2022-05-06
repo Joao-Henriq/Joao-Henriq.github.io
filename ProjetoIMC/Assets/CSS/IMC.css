@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root {
+    --primary-color: rgb(17, 86 , 102);
+    --dark-primary-color: rgb(16, 60, 70);
+
+}
+
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+.div1 {
+    background: #f2d096;
+    padding: 10px;
+    border-radius: 10px 0px 0px 0px;
+    width: 320px;
+    
+}
+.div2 {
+    background: #ED8975;
+    padding: 10px;
+    border-radius: 0px 10px 0px 0px;
+    display: block;
+    width: 320px;
+
+    
+}
+
+.div3 {
+    padding: 10px;
+    background: #8fb9aa;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.divmae {
+    display: flex;
+    max-width: 100%;
+}
+
+.paragrafo-resultado{
+    background: rgb(109, 255, 182);
+    padding: 10px 20px;
+}
+
+.bad {
+    background: rgb(192, 82, 82);
+    
+}
+
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  
+  form input {
+    font-size: 18px;
+    height: 30px;
+    padding: 0 5px;
+    outline-style: var(--primary-color);
+    
+  }
+  
+  form input:focus {
+    outline: 1px solid var(--primary-color);
+    border-radius: 5px;
+  }
+  
+  
+  .botao {
+    border: none;
+    background: var(--dark-primary-color);
+    color: #ffff;
+    font-size: 18px;
+    height: 35px;
+    cursor: pointer;
+    margin-top: 0px;
+    border-radius: 5px;
+  }
+  
+  form button:hover {
+    background: var(--primary-color);
+  }
+
+  

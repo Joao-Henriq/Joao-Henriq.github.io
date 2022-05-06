@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validando um formulário</title>
+    <link rel="stylesheet" href="./ValidandoForm.css">
+</head>
+<body>
+    <!-- Projeto de João Henrique 
+        Curso Js e Ts do básico ao avançado
+            Validando formulários com JS -->
+    <section  class="container" class="container">
+        <h1 class="h1">Formulário de cadastro.</h1>
+        <ul>
+            <li>Nenhum campo pode estar vazio</li>
+            <li>Usuário só pode conter letrar e/ou números</li>
+            <li>O nome de usuário deverá ter entre 3 e 12 caracteres</li>
+            <li>A senha precisa ter entre 6 e 12 caracteres</li>
+        </ul>
+        <!-- AQUI -->
+        <form action="/" method="POST" class="formulario">
+            <label>Nome</label>
+            <input type="text" class="nome validar" placeholder="Digite seu primeiro nome">
+            <label>Sobrenome</label>
+            <input type="text" class="sobrenome validar" placeholder="Digite seu sobrenome">
+            <label class="cpf">CPF</label>
+            <input type="text" class="cpf validar" placeholder="ex: 123.456.789-10">
+            <label>Usuário</label>
+            <input type="text" class="usuario validar">
+            <label>Senha</label>
+            <input type="password" class="senha validar">
+            <label>Repita a senha</label>
+            <input type="password" class="repetir-senha validar">
+            <input type="submit" value="Enviar" class="enviar">
+        </form>
+
+    </section>
+
+    <script src="./ValidandoCPFcomClasses.js"></script>
+    <script src="./ValidandoFormuláriocomClasses.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,25 @@
+*{
+    background-color: black;
+    padding: 0 10px 0 0;
+}
+h1{
+    text-align: center;
+    color: antiquewhite;
+}
+p{
+    color: antiquewhite;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: 220px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+    margin: 0 auto;
+}
+
