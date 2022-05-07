@@ -23,10 +23,9 @@ a {
     padding-right: 40px
 }
 .minhafoto {
-    height: 100px;
-    width: 100px;
+    width: 10%;
+    height: 10%;
     border-radius: 50%;
-
 }
 
 .div-img {
@@ -66,7 +65,6 @@ h1{
     text-align: center;
 }
 
-/* #section {
-    max-width: 100% vh;
-    max-height: 100% vh;
-} */
+#section-1 {
+    height: 100vh;
+}
